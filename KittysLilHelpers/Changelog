@@ -1,0 +1,7 @@
+CHANGELOG
+
+0.2.002
+- Fixed Ranges in SortDest
+- Uniformisation of messages
+- Added more custom recipes (Horse Armour, Name Tag & Saddle)
+- Added /klh recipe to enable/disable custom recipes

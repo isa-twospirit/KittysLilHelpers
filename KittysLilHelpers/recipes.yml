@@ -1,0 +1,447 @@
+revision: 1
+_GoldenHorseArmor:
+  is_enabled: true
+  recipe:
+    kcs-type: kcs-Recipe-Shaped
+    result:
+      kcs-type: kcs-ItemStack
+      material: GOLD_BARDING
+    shape_0: '  1'
+    shape_1: '222'
+    shape_2: 2 2
+    ingredients:
+      '2':
+        kcs-type: kcs-ItemStack
+        material: GOLD_INGOT
+      '1':
+        kcs-type: kcs-ItemStack
+        material: GOLD_BLOCK
+_IronHorseArmor:
+  is_enabled: true
+  recipe:
+    kcs-type: kcs-Recipe-Shaped
+    result:
+      kcs-type: kcs-ItemStack
+      material: IRON_BARDING
+    shape_0: '  1'
+    shape_1: '222'
+    shape_2: 2 2
+    ingredients:
+      '2':
+        kcs-type: kcs-ItemStack
+        material: IRON_INGOT
+      '1':
+        kcs-type: kcs-ItemStack
+        material: IRON_BLOCK
+_DiamondHorseArmor:
+  is_enabled: true
+  recipe:
+    kcs-type: kcs-Recipe-Shaped
+    result:
+      kcs-type: kcs-ItemStack
+      material: DIAMOND_BARDING
+    shape_0: '  1'
+    shape_1: '222'
+    shape_2: 2 2
+    ingredients:
+      '2':
+        kcs-type: kcs-ItemStack
+        material: DIAMOND
+      '1':
+        kcs-type: kcs-ItemStack
+        material: DIAMOND_BLOCK
+_CommandBlock:
+  is_enabled: true
+  recipe:
+    kcs-type: kcs-Recipe-Shaped
+    result:
+      kcs-type: kcs-ItemStack
+      material: COMMAND
+    shape_0: '121'
+    shape_1: '212'
+    shape_2: '121'
+    ingredients:
+      '2':
+        kcs-type: kcs-ItemStack
+        material: IRON_INGOT
+      '1':
+        kcs-type: kcs-ItemStack
+        material: REDSTONE
+_Saddle:
+  is_enabled: true
+  recipe:
+    kcs-type: kcs-Recipe-Shaped
+    result:
+      kcs-type: kcs-ItemStack
+      material: SADDLE
+    shape_0: '111'
+    shape_1: 2 2
+    shape_2: 3 3
+    ingredients:
+      '3':
+        kcs-type: kcs-ItemStack
+        material: IRON_INGOT
+      '2':
+        kcs-type: kcs-ItemStack
+        material: STRING
+      '1':
+        kcs-type: kcs-ItemStack
+        material: LEATHER
+_NameTag:
+  is_enabled: true
+  recipe:
+    kcs-type: kcs-Recipe-Shaped
+    result:
+      kcs-type: kcs-ItemStack
+      material: NAME_TAG
+    shape_0: ' 1 '
+    shape_1: '121'
+    shape_2: ' 1 '
+    ingredients:
+      '2':
+        kcs-type: kcs-ItemStack
+        material: LEATHER
+      '1':
+        kcs-type: kcs-ItemStack
+        material: STRING
+_OakStairs:
+  is_enabled: true
+  recipe:
+    kcs-type: kcs-Recipe-Shaped
+    result:
+      kcs-type: kcs-ItemStack
+      material: WOOD_STAIRS
+      amount: 3
+    shape_0: '1 '
+    shape_1: '11'
+    ingredients:
+      '1':
+        kcs-type: kcs-ItemStack
+        material: WOOD
+_SprueStairs:
+  is_enabled: true
+  recipe:
+    kcs-type: kcs-Recipe-Shaped
+    result:
+      kcs-type: kcs-ItemStack
+      material: SPRUCE_WOOD_STAIRS
+      amount: 3
+    shape_0: '1 '
+    shape_1: '11'
+    ingredients:
+      '1':
+        kcs-type: kcs-ItemStack
+        material: WOOD
+        durability: 1
+_BirchStairs:
+  is_enabled: false
+  recipe:
+    kcs-type: kcs-Recipe-Shaped
+    result:
+      kcs-type: kcs-ItemStack
+      material: BIRCH_WOOD_STAIRS
+      amount: 3
+    shape_0: '1 '
+    shape_1: '11'
+    ingredients:
+      '1':
+        kcs-type: kcs-ItemStack
+        material: WOOD
+        durability: 2
+_JungleStairs:
+  is_enabled: true
+  recipe:
+    kcs-type: kcs-Recipe-Shaped
+    result:
+      kcs-type: kcs-ItemStack
+      material: JUNGLE_WOOD_STAIRS
+      amount: 3
+    shape_0: '1 '
+    shape_1: '11'
+    ingredients:
+      '1':
+        kcs-type: kcs-ItemStack
+        material: WOOD
+        durability: 3
+_AcaciaStairs:
+  is_enabled: true
+  recipe:
+    kcs-type: kcs-Recipe-Shaped
+    result:
+      kcs-type: kcs-ItemStack
+      material: ACACIA_STAIRS
+      amount: 3
+    shape_0: '1 '
+    shape_1: '11'
+    ingredients:
+      '1':
+        kcs-type: kcs-ItemStack
+        material: WOOD
+        durability: 4
+_DarkOakStairs:
+  is_enabled: true
+  recipe:
+    kcs-type: kcs-Recipe-Shaped
+    result:
+      kcs-type: kcs-ItemStack
+      material: DARK_OAK_STAIRS
+      amount: 3
+    shape_0: '1 '
+    shape_1: '11'
+    ingredients:
+      '1':
+        kcs-type: kcs-ItemStack
+        material: WOOD
+        durability: 5
+_SandstoneStairs:
+  is_enabled: true
+  recipe:
+    kcs-type: kcs-Recipe-Shaped
+    result:
+      kcs-type: kcs-ItemStack
+      material: SANDSTONE_STAIRS
+      amount: 3
+    shape_0: '1 '
+    shape_1: '11'
+    ingredients:
+      '1':
+        kcs-type: kcs-ItemStack
+        material: SANDSTONE
+_CobbleStoneStairs:
+  is_enabled: true
+  recipe:
+    kcs-type: kcs-Recipe-Shaped
+    result:
+      kcs-type: kcs-ItemStack
+      material: COBBLESTONE_STAIRS
+      amount: 3
+    shape_0: '1 '
+    shape_1: '11'
+    ingredients:
+      '1':
+        kcs-type: kcs-ItemStack
+        material: COBBLESTONE
+_StoneBrickStairs:
+  is_enabled: true
+  recipe:
+    kcs-type: kcs-Recipe-Shaped
+    result:
+      kcs-type: kcs-ItemStack
+      material: SMOOTH_STAIRS
+      amount: 3
+    shape_0: '1 '
+    shape_1: '11'
+    ingredients:
+      '1':
+        kcs-type: kcs-ItemStack
+        material: SMOOTH_BRICK
+_BrickStairs:
+  is_enabled: true
+  recipe:
+    kcs-type: kcs-Recipe-Shaped
+    result:
+      kcs-type: kcs-ItemStack
+      material: BRICK_STAIRS
+      amount: 3
+    shape_0: '1 '
+    shape_1: '11'
+    ingredients:
+      '1':
+        kcs-type: kcs-ItemStack
+        material: BRICK
+_NetherBrickStairs:
+  is_enabled: true
+  recipe:
+    kcs-type: kcs-Recipe-Shaped
+    result:
+      kcs-type: kcs-ItemStack
+      material: NETHER_BRICK_STAIRS
+      amount: 3
+    shape_0: '1 '
+    shape_1: '11'
+    ingredients:
+      '1':
+        kcs-type: kcs-ItemStack
+        material: NETHER_BRICK
+_QuarzStairs:
+  is_enabled: true
+  recipe:
+    kcs-type: kcs-Recipe-Shaped
+    result:
+      kcs-type: kcs-ItemStack
+      material: QUARTZ_STAIRS
+      amount: 3
+    shape_0: '1 '
+    shape_1: '11'
+    ingredients:
+      '1':
+        kcs-type: kcs-ItemStack
+        material: QUARTZ_BLOCK
+_ChiseledStone:
+  is_enabled: true
+  recipe:
+    kcs-type: kcs-Recipe-Shapeless
+    result:
+      kcs-type: kcs-ItemStack
+      material: SMOOTH_BRICK
+      durability: 3
+    ingredients:
+      '0':
+        kcs-type: kcs-ItemStack
+        material: STEP
+      '1':
+        kcs-type: kcs-ItemStack
+        material: STEP
+_CrackedStoneBrick:
+  is_enabled: true
+  recipe:
+    kcs-type: kcs-Recipe-Shapeless
+    result:
+      kcs-type: kcs-ItemStack
+      material: SMOOTH_BRICK
+      durability: 2
+    ingredients:
+      '0':
+        kcs-type: kcs-ItemStack
+        material: STEP
+        durability: 5
+      '1':
+        kcs-type: kcs-ItemStack
+        material: STEP
+        durability: 5
+_MossyStoneBrick:
+  is_enabled: true
+  recipe:
+    kcs-type: kcs-Recipe-Shapeless
+    result:
+      kcs-type: kcs-ItemStack
+      material: SMOOTH_BRICK
+      durability: 1
+    ingredients:
+      '0':
+        kcs-type: kcs-ItemStack
+        material: SMOOTH_BRICK
+      '1':
+        kcs-type: kcs-ItemStack
+        material: VINE
+_MossyCobblestone:
+  is_enabled: true
+  recipe:
+    kcs-type: kcs-Recipe-Shapeless
+    result:
+      kcs-type: kcs-ItemStack
+      material: MOSSY_COBBLESTONE
+    ingredients:
+      '0':
+        kcs-type: kcs-ItemStack
+        material: COBBLESTONE
+      '1':
+        kcs-type: kcs-ItemStack
+        material: VINE
+_MossyCobbleWall:
+  is_enabled: true
+  recipe:
+    kcs-type: kcs-Recipe-Shapeless
+    result:
+      kcs-type: kcs-ItemStack
+      material: COBBLE_WALL
+      durability: 1
+    ingredients:
+      '0':
+        kcs-type: kcs-ItemStack
+        material: COBBLE_WALL
+      '1':
+        kcs-type: kcs-ItemStack
+        material: VINE
+_MinecartHopper:
+  is_enabled: true
+  recipe:
+    kcs-type: kcs-Recipe-Shaped
+    result:
+      kcs-type: kcs-ItemStack
+      material: HOPPER_MINECART
+    shape_0: '121'
+    shape_1: '111'
+    ingredients:
+      '2':
+        kcs-type: kcs-ItemStack
+        material: HOPPER
+      '1':
+        kcs-type: kcs-ItemStack
+        material: IRON_INGOT
+_MinecartChest:
+  is_enabled: true
+  recipe:
+    kcs-type: kcs-Recipe-Shaped
+    result:
+      kcs-type: kcs-ItemStack
+      material: STORAGE_MINECART
+    shape_0: '121'
+    shape_1: '111'
+    ingredients:
+      '2':
+        kcs-type: kcs-ItemStack
+        material: CHEST
+      '1':
+        kcs-type: kcs-ItemStack
+        material: IRON_INGOT
+_MinecartCommand:
+  is_enabled: true
+  recipe:
+    kcs-type: kcs-Recipe-Shaped
+    result:
+      kcs-type: kcs-ItemStack
+      material: COMMAND_MINECART
+    shape_0: '121'
+    shape_1: '111'
+    ingredients:
+      '2':
+        kcs-type: kcs-ItemStack
+        material: COMMAND
+      '1':
+        kcs-type: kcs-ItemStack
+        material: IRON_INGOT
+_MinecartTNT:
+  is_enabled: true
+  recipe:
+    kcs-type: kcs-Recipe-Shaped
+    result:
+      kcs-type: kcs-ItemStack
+      material: EXPLOSIVE_MINECART
+    shape_0: '121'
+    shape_1: '111'
+    ingredients:
+      '2':
+        kcs-type: kcs-ItemStack
+        material: TNT
+      '1':
+        kcs-type: kcs-ItemStack
+        material: IRON_INGOT
+_MinecartCommand2:
+  is_enabled: true
+  recipe:
+    kcs-type: kcs-Recipe-Shapeless
+    result:
+      kcs-type: kcs-ItemStack
+      material: COMMAND_MINECART
+    ingredients:
+      '0':
+        kcs-type: kcs-ItemStack
+        material: MINECART
+      '1':
+        kcs-type: kcs-ItemStack
+        material: COMMAND
+_Grass:
+  is_enabled: true
+  recipe:
+    kcs-type: kcs-Recipe-Shapeless
+    result:
+      kcs-type: kcs-ItemStack
+      material: GRASS
+    ingredients:
+      '0':
+        kcs-type: kcs-ItemStack
+        material: DIRT
+      '1':
+        kcs-type: kcs-ItemStack
+        material: SEEDS

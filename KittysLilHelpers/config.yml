@@ -1,0 +1,179 @@
+recipe:
+  permissions:
+    kittyslilhelpers-recipe:
+      kcs-type: kcs-Permission
+      name: kittyslilhelpers.recipe
+      description: Allows to use /recipe.
+      default: kcs-PermissionDefault-TRUE
+    kittyslilhelpers-recipe-view:
+      kcs-type: kcs-Permission
+      name: kittyslilhelpers.recipe.view
+      description: Allows to use /recipe list.
+      default: kcs-PermissionDefault-TRUE
+    kittyslilhelpers-recipe-xable:
+      kcs-type: kcs-Permission
+      name: kittyslilhelpers.recipe.xable
+      description: Allows to use /recipe enableall.
+      default: kcs-PermissionDefault-OP
+    kittyslilhelpers-recipe-maintain:
+      kcs-type: kcs-Permission
+      name: kittyslilhelpers.recipe.maintain
+      description: Allows to use /recipe delete.
+      default: kcs-PermissionDefault-OP
+sort:
+  permissions:
+    kittyslilhelpers-sort:
+      kcs-type: kcs-Permission
+      name: kittyslilhelpers.sort
+      description: Allows to use /sort.
+      default: kcs-PermissionDefault-TRUE
+    kittyslilhelpers-sort-chests:
+      kcs-type: kcs-Permission
+      name: kittyslilhelpers.sort.chests
+      description: Allows to use /sort chests on self-owned objects.
+      default: kcs-PermissionDefault-TRUE
+    kittyslilhelpers-sort-chests-others:
+      kcs-type: kcs-Permission
+      name: kittyslilhelpers.sort.chests.others
+      description: Allows to use sort chests on objects owned by other players.
+      default: kcs-PermissionDefault-OP
+    kittyslilhelpers-sort-showinfo:
+      kcs-type: kcs-Permission
+      name: kittyslilhelpers.sort.showinfo
+      description: Allows to use /sort srclist.
+      default: kcs-PermissionDefault-TRUE
+    kittyslilhelpers-sort-srcedit:
+      kcs-type: kcs-Permission
+      name: kittyslilhelpers.sort.srcedit
+      description: Allows to use /sort srcadd on self-owned objects.
+      default: kcs-PermissionDefault-TRUE
+    kittyslilhelpers-sort-srcedit-others:
+      kcs-type: kcs-Permission
+      name: kittyslilhelpers.sort.srcedit.others
+      description: Allows to use sort srcadd on objects owned by other players.
+      default: kcs-PermissionDefault-OP
+    kittyslilhelpers-sort-destedit:
+      kcs-type: kcs-Permission
+      name: kittyslilhelpers.sort.destedit
+      description: Allows to use /sort destadd on self-owned objects.
+      default: kcs-PermissionDefault-TRUE
+    kittyslilhelpers-sort-destedit-others:
+      kcs-type: kcs-Permission
+      name: kittyslilhelpers.sort.destedit.others
+      description: Allows to use sort destadd on objects owned by other players.
+      default: kcs-PermissionDefault-OP
+  sources: {}
+  destinations: {}
+klh:
+  permissions:
+    kittyslilhelpers-klh:
+      kcs-type: kcs-Permission
+      name: kittyslilhelpers.klh
+      description: Allows to use /klh.
+      default: kcs-PermissionDefault-TRUE
+    kittyslilhelpers-klh-unsit:
+      kcs-type: kcs-Permission
+      name: kittyslilhelpers.klh.unsit
+      description: Allows to use /klh unsit.
+      default: kcs-PermissionDefault-TRUE
+    kittyslilhelpers-klh-whatis:
+      kcs-type: kcs-Permission
+      name: kittyslilhelpers.klh.whatis
+      description: Allows to use /klh whatis.
+      default: kcs-PermissionDefault-OP
+creatools:
+  permissions:
+    kittyslilhelpers-creatools:
+      kcs-type: kcs-Permission
+      name: kittyslilhelpers.creatools
+      description: Allows to use /creatools.
+      default: kcs-PermissionDefault-TRUE
+    kittyslilhelpers-creatools-flood:
+      kcs-type: kcs-Permission
+      name: kittyslilhelpers.creatools.flood
+      description: Allows to use /creatools flood.
+      default: kcs-PermissionDefault-TRUE
+    kittyslilhelpers-creatools-agify:
+      kcs-type: kcs-Permission
+      name: kittyslilhelpers.creatools.agify
+      description: Allows to use /creatools agify.
+      default: kcs-PermissionDefault-TRUE
+cmdblock:
+  permissions:
+    kittyslilhelpers-cmdblock:
+      kcs-type: kcs-Permission
+      name: kittyslilhelpers.cmdblock
+      description: Allows to use /cmdblock.
+      default: kcs-PermissionDefault-TRUE
+    kittyslilhelpers-cmdblock-edit:
+      kcs-type: kcs-Permission
+      name: kittyslilhelpers.cmdblock.edit
+      description: Allows to use /cmdblock setcmd on self-owned objects.
+      default: kcs-PermissionDefault-TRUE
+    kittyslilhelpers-cmdblock-edit-others:
+      kcs-type: kcs-Permission
+      name: kittyslilhelpers.cmdblock.edit.others
+      description: Allows to use cmdblock setcmd on objects owned by other players.
+      default: kcs-PermissionDefault-OP
+    kittyslilhelpers-cmdblock-info:
+      kcs-type: kcs-Permission
+      name: kittyslilhelpers.cmdblock.info
+      description: Allows to use /cmdblock info.
+      default: kcs-PermissionDefault-TRUE
+world:
+  permissions:
+    kittyslilhelpers-world:
+      kcs-type: kcs-Permission
+      name: kittyslilhelpers.world
+      description: Allows to use /world.
+      default: kcs-PermissionDefault-TRUE
+    kittyslilhelpers-world-list:
+      kcs-type: kcs-Permission
+      name: kittyslilhelpers.world.list
+      description: Allows to use /world show.
+      default: kcs-PermissionDefault-TRUE
+    kittyslilhelpers-world-worldadmin:
+      kcs-type: kcs-Permission
+      name: kittyslilhelpers.world.worldadmin
+      description: Allows to use /world setgroup on self-owned objects.
+      default: kcs-PermissionDefault-TRUE
+    kittyslilhelpers-world-worldadmin-others:
+      kcs-type: kcs-Permission
+      name: kittyslilhelpers.world.worldadmin.others
+      description: Allows to use world setgroup on objects owned by other players.
+      default: kcs-PermissionDefault-OP
+    kittyslilhelpers-world-worldgroupadmin:
+      kcs-type: kcs-Permission
+      name: kittyslilhelpers.world.worldgroupadmin
+      description: Allows to use /world addgroup on self-owned objects.
+      default: kcs-PermissionDefault-TRUE
+    kittyslilhelpers-world-worldgroupadmin-others:
+      kcs-type: kcs-Permission
+      name: kittyslilhelpers.world.worldgroupadmin.others
+      description: Allows to use world addgroup on objects owned by other players.
+      default: kcs-PermissionDefault-OP
+    kittyslilhelpers-world-teleport:
+      kcs-type: kcs-Permission
+      name: kittyslilhelpers.world.teleport
+      description: Allows to use /world go on self-owned objects.
+      default: kcs-PermissionDefault-TRUE
+    kittyslilhelpers-world-teleport-others:
+      kcs-type: kcs-Permission
+      name: kittyslilhelpers.world.teleport.others
+      description: Allows to use world go on objects owned by other players.
+      default: kcs-PermissionDefault-OP
+    kittyslilhelpers-world-givebook:
+      kcs-type: kcs-Permission
+      name: kittyslilhelpers.world.givebook
+      description: Allows to use /world givechronicle.
+      default: kcs-PermissionDefault-TRUE
+    kittyslilhelpers-world-worldflagadmin:
+      kcs-type: kcs-Permission
+      name: kittyslilhelpers.world.worldflagadmin
+      description: Allows to use /world setrealistictreecut on self-owned objects.
+      default: kcs-PermissionDefault-TRUE
+    kittyslilhelpers-world-worldflagadmin-others:
+      kcs-type: kcs-Permission
+      name: kittyslilhelpers.world.worldflagadmin.others
+      description: Allows to use world setrealistictreecut on objects owned by other players.
+      default: kcs-PermissionDefault-OP
